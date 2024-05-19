@@ -1,0 +1,68 @@
+
+   
+   
+.wrap{
+
+    display: flex;
+    justify-content: space-between;
+    // margin-left: auto;
+    // margin-right: auto;
+    width: 100%;
+    position: absolute; 
+    left: 0;
+    padding: 30px 0; 
+
+    @media (max-width: 768px) {
+        padding-top: 15px;
+    }
+
+    .logo{
+        color: white;
+        padding-left: 25px;
+
+    }   
+
+
+    .menu-items{
+        color: white;
+        padding-right: 25px;
+            
+        a{
+            color: white;
+            text-decoration: none;
+            letter-spacing: 2px;
+            padding-left: 25px;
+            opacity: 0.5;
+
+            &:hover{
+                opacity: 1;
+            }
+
+            @media (max-width: 768px) {
+                display: none;
+            }
+
+        }
+
+    }
+
+        
+    .menu-bars{
+        padding-right: 25px ; 
+        
+        i{
+            color: white;
+        }
+    
+        @media (min-width: 769px) {
+            display: none;
+        }
+    }
+    
+}
+    
+      
+    
+    
+        
+

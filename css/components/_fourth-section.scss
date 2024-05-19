@@ -1,0 +1,54 @@
+.fourth-section{
+    background-color: #302d2d;
+    text-align: center;
+    color: white;
+    padding: 30px 0;
+    width: 100%;
+
+
+    .fourth-section-title{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+
+        p{
+            opacity: 0.5;
+        }
+    }
+    
+   
+    hr{
+        width: 40px;
+        
+    }
+    .card-container{
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px 0;
+
+        .card{
+            width: 30%;
+            padding: 30px;
+
+            @media (max-width: 768px) {
+                width: 100%;
+                
+            }
+        
+
+           .fa-solid, .fa-brands{
+            font-size: 28px;
+           }
+
+           p{
+            opacity: 0.5;
+           }
+        }
+    }
+
+}

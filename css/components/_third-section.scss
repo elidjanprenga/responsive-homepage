@@ -1,0 +1,32 @@
+.third-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 60px 0;
+
+    @media (max-width: 768px) {
+        flex-wrap: wrap;
+    }
+
+    .content{
+        text-align: center;
+        width: 40%;
+
+        @media (max-width: 768px) {
+            width: 90%;
+            
+        }
+    }
+
+    .third-section-img{
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        
+        @media (max-width: 768px) {
+            width: 150px;
+            height: 150px;
+        }
+    }
+}

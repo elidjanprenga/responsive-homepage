@@ -1,0 +1,36 @@
+.subscribe-container{
+    width: 30%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    margin-bottom: 30px;
+    @media (max-width: 768px) {
+        width: 90%;
+        
+    }
+
+   
+
+    input{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+
+    button{
+        margin-top: 30px;
+        background-color: #007bff;
+        width: 110px;
+        padding:10px 15px;
+        border-radius: 5px;
+        color: white;
+        border: none;
+
+        &:hover{
+            background-color:#0056b3; ;
+        }
+
+    }
+}

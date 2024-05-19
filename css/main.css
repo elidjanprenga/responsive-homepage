@@ -1,0 +1,253 @@
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  padding: 30px 0;
+}
+@media (max-width: 768px) {
+  .wrap {
+    padding-top: 15px;
+  }
+}
+.wrap .logo {
+  color: white;
+  padding-left: 25px;
+}
+.wrap .menu-items {
+  color: white;
+  padding-right: 25px;
+}
+.wrap .menu-items a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+  padding-left: 25px;
+  opacity: 0.5;
+}
+.wrap .menu-items a:hover {
+  opacity: 1;
+}
+@media (max-width: 768px) {
+  .wrap .menu-items a {
+    display: none;
+  }
+}
+.wrap .menu-bars {
+  padding-right: 25px;
+}
+.wrap .menu-bars i {
+  color: white;
+}
+@media (min-width: 769px) {
+  .wrap .menu-bars {
+    display: none;
+  }
+}
+
+.hero {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("/Applications/WEB dev/Challanges/Git-challange:5/images/image-1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .hero {
+    height: 160vh;
+  }
+}
+.hero .content {
+  width: 40%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 150px;
+  color: white;
+}
+@media (max-width: 768px) {
+  .hero .content {
+    width: 80%;
+    padding-top: 100px;
+  }
+}
+.hero h2 {
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0px;
+  margin-bottom: 35px;
+}
+@media (max-width: 768px) {
+  .hero h2 {
+    width: 80%;
+  }
+}
+.hero button {
+  width: 130px;
+  padding: 15px 30px;
+  background: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  margin-top: 10px;
+}
+@media (max-width: 768px) {
+  .hero button {
+    width: 100%;
+  }
+}
+
+.third-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 60px 0;
+}
+@media (max-width: 768px) {
+  .third-section {
+    flex-wrap: wrap;
+  }
+}
+.third-section .content {
+  text-align: center;
+  width: 40%;
+}
+@media (max-width: 768px) {
+  .third-section .content {
+    width: 90%;
+  }
+}
+.third-section .third-section-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+@media (max-width: 768px) {
+  .third-section .third-section-img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.fourth-section {
+  background-color: #302d2d;
+  text-align: center;
+  color: white;
+  padding: 30px 0;
+  width: 100%;
+}
+.fourth-section .fourth-section-title {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+.fourth-section .fourth-section-title p {
+  opacity: 0.5;
+}
+.fourth-section hr {
+  width: 40px;
+}
+.fourth-section .card-container {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0;
+}
+.fourth-section .card-container .card {
+  width: 30%;
+  padding: 30px;
+}
+@media (max-width: 768px) {
+  .fourth-section .card-container .card {
+    width: 100%;
+  }
+}
+.fourth-section .card-container .card .fa-solid, .fourth-section .card-container .card .fa-brands {
+  font-size: 28px;
+}
+.fourth-section .card-container .card p {
+  opacity: 0.5;
+}
+
+.subscribe-container {
+  width: 30%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+  .subscribe-container {
+    width: 90%;
+  }
+}
+.subscribe-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.subscribe-container button {
+  margin-top: 30px;
+  background-color: #007bff;
+  width: 110px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+.subscribe-container button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  background-color: #302d2d;
+  color: white;
+  padding: 30px;
+}
+footer p {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2;
+}
+@media (max-width: 768px) {
+  footer p {
+    width: 90%;
+  }
+}
+footer .fa-brands {
+  padding: 10px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+@media (min-width: 768px) {
+  body {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}/*# sourceMappingURL=main.css.map */
